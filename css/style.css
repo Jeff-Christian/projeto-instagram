@@ -76,3 +76,26 @@
 }
 
 /* Separator */
+
+.separator{
+    position: relative;
+}
+
+.separator .line{
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span{
+    position: absolute;
+    font-size: 14px;
+    color: #bbb;
+    font-weight: bold;
+    width: 50px;
+    top: -6px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+/* facebook login */
